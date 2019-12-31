@@ -7,5 +7,5 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  passenger.select {|passenger| passenger.start_with? ("a") }
 end
