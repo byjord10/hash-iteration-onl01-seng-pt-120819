@@ -5,5 +5,9 @@
 # }
 
 def happy_birthday(birthday_kids)
-  biirthday_kids.select {|age| age == 12 print "Happy 12th Birthday!"}
+  biirthday_kids.select do |age|
+    if age == 12
+      print "Happy 12th Birthday"
+    else
+      
 end
