@@ -1,11 +1,9 @@
 # birthday_kids = {
-#   "Timmy" => 9, 
-#   "Sarah" => 6, 
+#   "Timmy" => 9,
+#   "Sarah" => 6,
 #   "Amanda" => 27
 # }
 
 def happy_birthday(birthday_kids)
   biirthday_kids.select {|age| age == 12 p "Happy 12th Birthday!"}
 end
-
-
