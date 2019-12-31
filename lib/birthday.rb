@@ -9,5 +9,7 @@ def happy_birthday(birthday_kids)
     if age == 12
       print "Happy 12th Birthday"
     else
-      
+    end
+  end 
+
 end
