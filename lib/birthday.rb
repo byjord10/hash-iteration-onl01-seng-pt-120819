@@ -5,7 +5,7 @@
 # }
 
 def happy_birthday(birthday_kids)
-  # add your code snippet here!
+  biirthday_kids.select {|age| age == 12 p "Happy 12th Birthday!"}
 end
 
 
